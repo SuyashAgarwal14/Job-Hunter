@@ -3,7 +3,7 @@ modules = ["python-3.11"]
 
 
 [deployment]
-run = ["python app.py"]
+run = ["sh", "-c", "python app.py"]
 
 [[ports]]
 localPort = 5000
