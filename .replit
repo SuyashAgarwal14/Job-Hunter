@@ -1,0 +1,10 @@
+run = "python app.py"
+modules = ["python-3.11"]
+
+
+[deployment]
+run = ["python app.py"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
